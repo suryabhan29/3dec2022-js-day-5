@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Js day-5 (data types)</title>
+        <link href="./css/style.css" rel="stylesheet">
+        <style>
+
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <P class="myparagraph"></P>
+        <P class="myparagraph2"></P>
+        <span data-suraj="abc"></span>
+        <div data-sakshi="abcsakshi"></div>
+        <script src="./js/script2.js"></script>
+        <script>
+            // this is a single line comment
+
+            /*
+            this is a multiline comment
+            you can write your documentation
+            */
+            // i will create this name var to store the user first name
+            var name='suraj';
+
+            // i want to see js output
+
+
+            // string
+            console.log( typeof name);
+            console.log( typeof 'bhanu');
+            console.log( typeof "rakesh");
+            console.log( typeof `gautham`);
+
+            // i will create this var to user height
+
+
+            var x = 5.6; // number
+
+            // i want to see js output
+            alert(typeof x)
+
+            // i will create this let to store the product quantity
+            let y = 100;
+
+            // i want to see js output with inner.HTML
+
+            document.querySelector('p.myparagraph').innerHTML = typeof y ;
+            document.querySelector("p.myparagraph2").innerHTML = typeof y ;
+            document.querySelector('span[data-suraj="abc"]').innerHTML = 'good morning';
+            document.querySelector('div[data-sakshi="abcsakshi"]').innerHTML = "good night";
+            
+            // js main agar id de rkhka ho to getelementbyid 
+            // kuch or de rkha ho to document.queryselector
+            
+
+
+        </script>
+    </body>
+</html>
